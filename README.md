@@ -9,5 +9,6 @@ selectionMenu "instruction" menuItems(一维数组的名称) $defaultIndex(可�
 ### Example:
 ```bash
 langs=("简体中文" "繁體中文" "English" "日本語")
-selectResult=$(selectionMenu "Select Language" langs 2 true)
+selectionMenu "Select Language" langs 2 true
+echo $selectedItem
 ```

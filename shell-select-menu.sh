@@ -75,7 +75,6 @@ function selectionMenu(){
       "$KEY_ENTER")
         clearLastMenu
         flagWaitingEnter=false
-        echo $selectedItem
         return 0
         ;;
     esac
